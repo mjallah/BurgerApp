@@ -8,7 +8,7 @@ const exphbs = require("express-handlebars");
 // Importing files
 const routes = require("./routes/handlers");
 
-const PORT = process.env.PORT || 9001;
+const PORT = process.env.PORT || 3001;
 const app = express();
 
 app.use(express.static(process.cwd() + "/public")); // serving static files
